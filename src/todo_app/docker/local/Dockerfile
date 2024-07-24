@@ -5,10 +5,13 @@ ARG APP_DIR=/src \
 
 WORKDIR $APP_DIR
 
+RUN go install github.com/air-verse/air@latest
+
 COPY ${LOCAL_PATH}/go.mod ${APP_DIR}/
 COPY ${LOCAL_PATH}/go.sum ${APP_DIR}/
 RUN go mod download
 
-RUN apk add --no-cache git sqlite-dev gcc musl-dev
+RUN apk upgrade --update && apk --no-cache add git gcc musl-dev
 
-CMD ["go", "run", "main.go"]
+
+CMD ["air", "-c", ".air.toml"]
