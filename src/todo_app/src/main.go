@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello, World!")
 	fmt.Println(models.Db)
 	controllers.StartMainServer()
 }

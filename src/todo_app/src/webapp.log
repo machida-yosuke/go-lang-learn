@@ -1,0 +1,9 @@
+2024/07/23 07:45:32 route_auth.go:50: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
+2024/07/23 16:47:50 route_auth.go:50: sql: no rows in result set
+2024/07/23 16:53:02 route_auth.go:50: sql: no rows in result set
+2024/07/23 16:53:26 route_auth.go:50: sql: no rows in result set
+2024/07/23 16:55:02 route_auth.go:50: sql: no rows in result set
+2024/07/23 07:57:35 route_auth.go:50: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
+2024/07/23 07:58:05 route_auth.go:50: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
+2024/07/23 07:58:17 users.go:44: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
+2024/07/23 08:16:14 users.go:44: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
