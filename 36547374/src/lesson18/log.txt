@@ -1,0 +1,2 @@
+WARNING: main.go:18: This is a warning message
+ERROR: main.go:19: critical error
